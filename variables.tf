@@ -25,3 +25,26 @@ variable "ssm_private_subnet_1c" {}
 variable "load_balancer_internal" {}
 
 variable "load_balancer_type" {}
+
+#### ECS GENERAL ####
+
+variable "nodes_ami" {}
+
+variable "nodes_instance_type" {}
+
+variable "nodes_volume_size" {}
+
+variable "nodes_volume_type" {}
+
+variable "cluster_on_demand_min_size" {}
+
+variable "cluster_on_demand_max_size" {}
+
+variable "cluster_on_demand_desired_size" {}
+
+
+variable "cluster_spots_min_size" {}
+
+variable "cluster_spots_max_size" {}
+
+variable "cluster_spots_desired_size" {}
